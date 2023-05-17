@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "O:\\Github\\Env\\Bora.API\\Bora.API\\Bora.API.csproj": {}
+    "C:\\Users\\Leonardo\\Documents\\Github\\Own\\bora-suite\\Bora.API\\Bora.API.csproj": {}
   },
   "projects": {
-    "O:\\Github\\Env\\Bora.API\\Bora.API\\Bora.API.csproj": {
+    "C:\\Users\\Leonardo\\Documents\\Github\\Own\\bora-suite\\Bora.API\\Bora.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "O:\\Github\\Env\\Bora.API\\Bora.API\\Bora.API.csproj",
+        "projectUniqueName": "C:\\Users\\Leonardo\\Documents\\Github\\Own\\bora-suite\\Bora.API\\Bora.API.csproj",
         "projectName": "Bora.API",
-        "projectPath": "O:\\Github\\Env\\Bora.API\\Bora.API\\Bora.API.csproj",
-        "packagesPath": "C:\\Users\\leona\\.nuget\\packages\\",
-        "outputPath": "O:\\Github\\Env\\Bora.API\\Bora.API\\obj\\",
+        "projectPath": "C:\\Users\\Leonardo\\Documents\\Github\\Own\\bora-suite\\Bora.API\\Bora.API.csproj",
+        "packagesPath": "C:\\Users\\Leonardo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Leonardo\\Documents\\Github\\Own\\bora-suite\\Bora.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\leona\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Leonardo\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -98,7 +98,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.405\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.406\\RuntimeIdentifierGraph.json"
         }
       }
     }

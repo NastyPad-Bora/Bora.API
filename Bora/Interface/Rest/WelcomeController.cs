@@ -11,13 +11,19 @@ namespace Bora.API.Bora.Interface.Rest;
 [SwaggerTag("Hello")]
 public class WelcomeController : ControllerBase
 {
-    public WelcomeController()
+    private readonly IWebHostEnvironment _webHostEnvironment;
+
+    public WelcomeController(IWebHostEnvironment webHostEnvironment)
     {
+        _webHostEnvironment = webHostEnvironment;
     }
 
     [HttpGet]
-    public String SayHello()
+    public IActionResult SayHello()
     {
-        return "Hello!";
+        string filePath = Path.Combine(_webHostEnvironment.ContentRootPath, "Assets", "index.html");
+        string htmlContent = System.IO.File.ReadAllText(filePath);
+        return Content(htmlContent, "text/html");
     }
+    
 }
